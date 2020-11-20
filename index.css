@@ -1,0 +1,158 @@
+*{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+}   
+.main {
+    width: 559px;
+    float: left;
+    margin-left:22px;
+}
+.leftnav{
+    float: left;
+}
+
+.right{
+    float: left;
+    margin-left: 20px;
+}
+
+/* h 标题大字 样式 */
+h a{
+    color: #f38c00 !important;
+    font-size: 25px;
+}
+/* 左侧列表li */
+.list li{
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 21px;
+}
+.a-hov a , .hov{
+    color: #555d53;
+}
+
+.a-hov a:hover ,.mid .mid-a a:hover{
+    background: #37a;
+    color: #fff;
+}
+
+h2{
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+    line-height: 150%;
+}
+.alist .title{
+    line-height: 1.45;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.alist li,.albun-list li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.albun-list .title , .title a , .artist a{
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+.mid li, .alist li{
+    text-align: center;
+    vertical-align: top;
+}
+.mid li , .alist li{
+    width:126px;
+    height: 144px;
+    
+}
+.mid li a , .alist li a {
+    white-space: nowrap;
+}
+.rating i{
+    margin-left: 4px;
+    color: #e09015;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+}
+.star35{
+    background: url(./pic/ic_rating_s.png)no-repeat;
+    background-position: 0 -33px;
+}
+
+.rating span {
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+}
+.cover a{
+    position: relative;
+}
+.cover a i{
+    display: block;
+    position: absolute;
+    background: url(./pic/cover.png)no-repeat;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    background-position: 50% 50%;
+    left: -81px;
+    top: -64px;
+    opacity: .8;
+    
+}
+.artPic{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+.artPic .bg{
+    position: absolute;
+    display: none;
+    width: 48px;
+    height: 48px;
+    left: 20px;
+    top: 20px;
+    background: url(./pic/ic_bg_play.png)no-repeat;
+}
+.artPic .bg-black{
+    position: absolute;
+    display: none;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    opacity: .85;
+    background-color: #222;
+}
+/* 用js将hover属性添加到html */
+.artPic .bg.hover , .artPic .bg-black.hover{
+    display: block;
+}
+.content a{
+    font-size: 12px;
+    color: #555d53;
+}
+.content .desc{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #999;
+}
+.num{
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.artlist li{
+    margin-bottom: 16px;
+}
